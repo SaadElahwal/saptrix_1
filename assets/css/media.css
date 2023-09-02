@@ -1,0 +1,518 @@
+@media (max-width: 2560px) and (min-width: 1441px) {
+}
+
+@media (max-width: 1440px) and (min-width: 1201px) {
+}
+
+@media (max-width: 1200px) and (min-width: 1025px) {
+  .navbar {
+    width: 93%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+  }
+
+  .contacts {
+    padding: 100px 200px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 993px) {
+  .navbar {
+    width: 100%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+  }
+
+  .contacts {
+    padding: 100px 200px;
+  }
+
+  .navbar-toggler {
+    transform: translateX(-250px);
+  }
+
+  .numbers .contain {
+    gap: 0;
+  }
+  .numbers .container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .navbar {
+    width: 78%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+  }
+  .address .container {
+    gap: 0;
+  }
+
+  .contacts {
+    padding: 100px 200px;
+  }
+
+  .navbar-toggler {
+    transform: translateX(-250px);
+  }
+
+  .numbers .contain {
+    gap: 0;
+  }
+  .numbers .container {
+    width: 60%;
+  }
+
+  .ourteam .team {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-5 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+  .navbar {
+    width: 100%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px !important;
+  }
+  .address .container {
+    gap: 0;
+    justify-content: space-around;
+  }
+
+  .contacts {
+    padding: 100px 200px;
+  }
+
+  .navbar-toggler {
+    transform: translateX(-250px);
+  }
+
+  .numbers .contain {
+    gap: 0;
+  }
+  .numbers .container {
+    width: 100%;
+  }
+
+  .numbers .container .row {
+    gap: 45px;
+  }
+
+  .ourteam .team {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-5 {
+    width: 80%;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 100px 226px;
+  }
+
+  .whychose .container .job-item {
+    right: 100px;
+  }
+  .protofolio .row .image-box .project-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(252, 227, 13, 0.5);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 14%;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .protofolio .row .image-box:hover .project-data {
+    width: 79%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .ourteam .team .card-team .team-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(48, 200, 213, 0.5);
+    position: absolute;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    bottom: 33%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    transition: all 0.4s;
+  }
+
+  .ourteam .team .card-team:hover .team-data {
+    height: 67%;
+    opacity: 1;
+    visibility: visible;
+    width: 83%;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 426px) {
+  .navbar {
+    width: 100%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px !important;
+  }
+  .address .container {
+    gap: 0;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateX(72px);
+  }
+
+  .contacts {
+    padding: 100px 0px;
+  }
+
+  .navbar-toggler {
+    transform: translateX(-250px);
+  }
+
+  .numbers .contain {
+    gap: 0;
+  }
+  .numbers .container {
+    width: 100%;
+  }
+
+  .numbers .container .row {
+    gap: 45px;
+  }
+
+  .ourteam .team {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-5 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 100px 226px;
+  }
+
+  .card-1 {
+    width: 450px;
+  }
+
+  .head-1 {
+    width: 100%;
+  }
+
+  .whychose .container .job-item {
+    right: 100px;
+  }
+  .protofolio .row .image-box .project-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(252, 227, 13, 0.5);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 14%;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .protofolio .row .image-box:hover .project-data {
+    width: 79%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .ourteam .team .card-team .team-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(48, 200, 213, 0.5);
+    position: absolute;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    bottom: 33%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    transition: all 0.4s;
+  }
+
+  .ourteam .team .card-team:hover .team-data {
+    height: 67%;
+    opacity: 1;
+    visibility: visible;
+    width: 83%;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+  .navbar {
+    width: 100%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px !important;
+  }
+  .address .container {
+    gap: 0;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateX(72px);
+  }
+
+  .contacts {
+    padding: 100px 0px;
+  }
+
+  .navbar-toggler {
+    transform: translateX(-250px);
+  }
+
+  .numbers .contain {
+    gap: 0;
+  }
+  .numbers .container {
+    width: 100%;
+  }
+
+  .numbers .container .row {
+    gap: 45px;
+  }
+
+  .ourteam .team {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-5 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 100px 226px;
+  }
+
+  .card-1 {
+    width: 400px;
+  }
+
+  .head-1 {
+    width: 100%;
+  }
+
+  .whychose .container .job-item {
+    right: 100px;
+  }
+  .protofolio .row .image-box .project-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(252, 227, 13, 0.5);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 14%;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .protofolio .row .image-box:hover .project-data {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .ourteam .team .card-team .team-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(48, 200, 213, 0.5);
+    position: absolute;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    bottom: 33%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    transition: all 0.4s;
+  }
+
+  .ourteam .team .card-team:hover .team-data {
+    height: 67%;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 320px) {
+  .navbar {
+    width: 100%;
+  }
+  .collapse {
+    transform: translateX(190px);
+  }
+  .address .contain {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px !important;
+  }
+  .address .container {
+    gap: 0;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translateX(72px);
+  }
+
+  .ourservices .contain {
+    transform: translateX(-14px);
+  }
+
+  .contacts {
+    padding: 100px 0px;
+  }
+
+  .navbar-toggler {
+    transform: translateX(-250px);
+  }
+
+  .numbers .contain {
+    gap: 0;
+  }
+  .numbers .container {
+    width: 100%;
+  }
+
+  .numbers .container .row {
+    gap: 45px;
+  }
+
+  .ourteam .team {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-5 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .cards {
+    width: 100%;
+    padding: 100px 226px;
+  }
+
+  .card-1 {
+    width: 400px;
+  }
+
+  .head-1 {
+    width: 100%;
+  }
+
+  .whychose .container .job-item {
+    right: 100px;
+  }
+  .protofolio .row .image-box .project-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(252, 227, 13, 0.5);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    bottom: 14%;
+    left: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 10;
+  }
+
+  .protofolio .row .image-box:hover .project-data {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+  }
+
+  .ourteam .team .card-team .team-data {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(48, 200, 213, 0.5);
+    position: absolute;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    bottom: 33%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    transition: all 0.4s;
+  }
+
+  .ourteam .team .card-team:hover .team-data {
+    height: 67%;
+    opacity: 1;
+    visibility: visible;
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+}

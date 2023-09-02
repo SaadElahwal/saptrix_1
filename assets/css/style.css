@@ -185,12 +185,16 @@ a {
   filter: var(--primary-filter);
   margin: 0;
   z-index: 9;
+  margin-left: 5px;
 }
 
 .header .contain img:hover {
-  /*background-color: var(--light-color);*/
+  background-color: var(--light-color);
   filter: invert(0%) sepia(1%) saturate(35%) hue-rotate(263deg) brightness(86%)
     contrast(100%);
+  padding: 3px;
+  transition: 0.7s;
+  transform: scaleY(1.1);
 }
 
 .heading {
@@ -239,13 +243,13 @@ a {
 .numbers .contain {
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
+  /* margin-left: 150px; */
   text-align: center;
   align-items: center;
   align-content: center;
+
   gap: 20px;
   padding: 10px 10px;
-  transform: translateX(-50px);
 }
 
 .numbers .contain:hover {
@@ -258,6 +262,7 @@ a {
 .numbers .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .numbers .contain p {
@@ -297,14 +302,9 @@ a {
 }*/
 .icon-box {
   /*border: solid 1px var(--light-color);*/
-  border-radius: 50%;
+
   padding: 5px 10px;
   width: max-content;
-}
-
-.icon-box:hover {
-  background-color: #ffffff;
-  border-color: var(--primary-color);
 }
 
 .whychose {
@@ -536,6 +536,11 @@ button:hover {
   text-align: center;
 }
 
+.heads p {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .icons {
   display: flex;
   flex-direction: row;
@@ -615,7 +620,7 @@ button:hover {
 
 .cards {
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 150px;
 }
 
 .head-1 {
@@ -629,6 +634,7 @@ button:hover {
   border: solid 1px rgba(128, 128, 128, 0.512);
   text-align: center;
   align-items: center;
+  padding: 0;
 }
 
 .list-item {
@@ -673,7 +679,7 @@ button:hover {
   bottom: -4px;
 }
 
-.card {
+.card-5 {
   justify-content: space-around;
   display: flex;
   flex-direction: row;
@@ -735,13 +741,14 @@ button:hover {
 .contacts {
   width: 100%;
 
-  padding: 100px 0px;
+  padding: 100px 450px;
 }
 
 .form-item {
-  width: 50%;
+  width: 100%;
   display: inline-block;
-  transform: translateX(300px);
+  /*transform: translateX(300px);*/
+  margin-bottom: 15px;
 }
 
 .form-item:hover {
